@@ -7,6 +7,20 @@
     <title>Madhu Chandrika - Portfolio</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="mediaqueries.css" />
+    <style>
+      body.dark-mode #socials-container .icon {
+        filter: brightness(0) invert(1);
+        opacity: 0.9;
+      }
+      body.dark-mode #about .about-containers .details-container > .icon {
+        filter: brightness(0) invert(1);
+        opacity: 0.9;
+      }
+      body.dark-mode #contact .contact-info-container .icon {
+        filter: brightness(0) invert(1);
+        opacity: 0.9;
+      }
+    </style>
   </head>
   <body>
     <nav id="desktop-nav">
@@ -48,7 +62,7 @@
     </nav>
     <section id="profile">
       <div class="section__pic-container">
-        <img src="./assets/profile-pic.png" alt="Madhu Chandrika profile picture" />
+        <img src="./assets/Profile_photo.png" alt="Madhu Chandrika profile picture" />
       </div>
       <div class="section__text">
         <p class="section__text__p1">Hi there,</p>
@@ -103,26 +117,63 @@
                 class="icon"
               />
               <h3>Certifications</h3>
-              <p>Salesforce Certified Administrator<br />Microsoft - Intro to Programming Using Python<br />Udemy - Full-Stack Web Development Bootcamp</p>
+              <p>Master Spring Boot 3 & Spring Framework 6 with Java — Udemy<br />Full-Stack Web Development Bootcamp — Udemy<br />Salesforce Certified Administrator — Salesforce</p>
             </div>
           </div>
           <div class="text-container">
             <p>
-              I am a Master’s student in Computer Science at DePaul University, passionate about full-stack development and cloud computing. With experience in React.js, Node.js, MongoDB, and DevOps tools, I enjoy building scalable applications and solving complex problems. My work at Accenture and Cognizant has strengthened my skills in API development, automation, and database management. I am always eager to learn and contribute to innovative tech solutions.
+              I’m a software engineer who enjoys building backend-driven and full-stack web applications that solve real problems. I primarily work with Java, Spring Boot, and modern web technologies to design APIs, authentication flows, and data-driven systems, while also building clean, functional user interfaces. I’m especially interested in developing scalable applications and integrating AI capabilities into software in practical, production-oriented ways.
             </p>
-            <h3>Technical Skills</h3>
+            <h3 style="margin-top: 18px;">Technical Skills</h3>
+
             <div class="skills-containers">
-              <div class="details-container skill-box">
-                <img src="./assets/c_cpp.png" alt="C/C++ icon" class="skill-icon" />
-                <p>C/C++</p>
-              </div>
               <div class="details-container skill-box">
                 <img src="./assets/java.png" alt="Java icon" class="skill-icon" />
                 <p>Java</p>
               </div>
               <div class="details-container skill-box">
+                <img src="./assets/javascript.png" alt="JavaScript icon" class="skill-icon" />
+                <p>JavaScript</p>
+              </div>
+              <div class="details-container skill-box">
+                <img src="./assets/TypeScript.png" alt="TypeScript icon" class="skill-icon" />
+                <p>TypeScript</p>
+              </div>
+              <div class="details-container skill-box">
                 <img src="./assets/python.png" alt="Python icon" class="skill-icon" />
                 <p>Python</p>
+              </div>
+              <div class="details-container skill-box">
+                <img src="./assets/SQL.png" alt="SQL icon" class="skill-icon" />
+                <p>SQL</p>
+              </div>
+              <div class="details-container skill-box">
+                <img src="./assets/SpringBoot.png" alt="SpringBoot icon" class="skill-icon" />
+                <p>Spring Boot</p>
+              </div>
+              <div class="details-container skill-box">
+                <img src="./assets/SpringSecurity.png" alt="SpringSecurity icon" class="skill-icon" />
+                <p>Spring Security</p>
+              </div>
+              <div class="details-container skill-box">
+                <img src="./assets/SpringData.png" alt="JSpringDataJPA icon" class="skill-icon" />
+                <p>Spring Data JPA</p>
+              </div>
+              <div class="details-container skill-box">
+                <img src="./assets/nodejs.png" alt="Node.js icon" class="skill-icon" />
+                <p>Node.js</p>
+              </div>
+              <div class="details-container skill-box">
+                <img src="./assets/Expressjs.png" alt="Express.js icon" class="skill-icon" />
+                <p>Express.js</p>
+              </div>
+              <div class="details-container skill-box">
+                <img src="./assets/reactjs.png" alt="React.js icon" class="skill-icon" />
+                <p>React.js</p>
+              </div>
+              <div class="details-container skill-box">
+                <img src="./assets/Next js.png" alt="Next.js icon" class="skill-icon" />
+                <p>Next.js</p>
               </div>
               <div class="details-container skill-box">
                 <img src="./assets/html.png" alt="HTML icon" class="skill-icon" />
@@ -133,40 +184,20 @@
                 <p>CSS</p>
               </div>
               <div class="details-container skill-box">
-                <img src="./assets/javascript.png" alt="JavaScript icon" class="skill-icon" />
-                <p>JavaScript</p>
-              </div>
-              <div class="details-container skill-box">
-                <img src="./assets/nodejs.png" alt="Node.js icon" class="skill-icon" />
-                <p>Node.js</p>
-              </div>
-              <div class="details-container skill-box">
-                <img src="./assets/reactjs.png" alt="React.js icon" class="skill-icon" />
-                <p>React.js</p>
-              </div>
-              <div class="details-container skill-box">
-                <img src="./assets/mongodb.png" alt="MongoDB icon" class="skill-icon" />
-                <p>MongoDB</p>
+                <img src="./assets/RestAPI.png" alt="REST APIs icon" class="skill-icon" />
+                <p>REST APIs </p>
               </div>
               <div class="details-container skill-box">
                 <img src="./assets/mysql.png" alt="MySQL icon" class="skill-icon" />
                 <p>MySQL</p>
               </div>
               <div class="details-container skill-box">
-                <img src="./assets/heroku.png" alt="Heroku icon" class="skill-icon" />
-                <p>Heroku</p>
+                <img src="./assets/mongodb.png" alt="MongoDB icon" class="skill-icon" />
+                <p>MongoDB</p>
               </div>
               <div class="details-container skill-box">
-                <img src="./assets/selenium.png" alt="Selenium WebDriver icon" class="skill-icon" />
-                <p>Selenium WebDriver</p>
-              </div>
-              <div class="details-container skill-box">
-                <img src="./assets/git.png" alt="Git icon" class="skill-icon" />
-                <p>Git</p>
-              </div>
-              <div class="details-container skill-box">
-                <img src="./assets/github.png" alt="GitHub icon" class="skill-icon" />
-                <p>GitHub</p>
+                <img src="./assets/generative.png" alt="Generative AI icon" class="skill-icon" />
+                <p>Generative AI</p>
               </div>
             </div>
           </div>
@@ -184,107 +215,107 @@
       <h1 class="title">Experience</h1>
       <div class="experience-details-container">
         <div class="about-containers">
+
+          <!-- NEW EXPERIENCE ADDED (FIRST) -->
+          <div class="details-container">
+            <h2 class="experience-sub-title">AI Agent Developer Intern</h2>
+            <p>NeuralSeek | Oct 2025 – Nov 2025 | Chicago, Illinois</p>
+            <div class="article-container">
+              <article class="experience-item">
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <p>Built enterprise-focused AI agents using a multi-agent orchestration platform, integrating LLM-backed capabilities into task-oriented application workflows.</p>
+                </div>
+              </article>
+              <article class="experience-item">
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <p>Implemented Retrieval-Augmented Generation (RAG) by connecting agents to knowledge bases to improve response accuracy and grounding.</p>
+                </div>
+              </article>
+              <article class="experience-item">
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <p>Designed agent workflows and prompts to handle varied user intents and produce structured, application-ready outputs.</p>
+                </div>
+              </article>
+              <article class="experience-item">
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <p>Tested and refined AI agent behavior through validation checks and iterative evaluation to improve reliability and consistency.</p>
+                </div>
+              </article>
+            </div>
+          </div>
+
           <div class="details-container">
             <h2 class="experience-sub-title">Custom Software Engineering Associate</h2>
             <p>Accenture | Dec 2022 – Jul 2024 | Bangalore, India</p>
             <div class="article-container">
               <article class="experience-item">
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
                 <div>
-                  <p>Developed and optimized Java-based applications on Heroku, enhancing deployment and database management.</p>
+                  <p>Worked on backend components of enterprise applications using Java, contributing to API logic and data access layers.</p>
                 </div>
               </article>
               <article class="experience-item">
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
                 <div>
-                  <p>Designed and managed RESTful APIs to support seamless client-server communication.</p>
+                  <p>Implemented and enhanced RESTful APIs and backend services to support business workflows.</p>
                 </div>
               </article>
               <article class="experience-item">
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
                 <div>
-                  <p>Proactively monitored application logs using Papertrail, resolving performance bottlenecks to improve reliability.</p>
+                  <p>Supported cloud-hosted applications by analyzing logs and runtime behavior to assist with issue resolution.</p>
                 </div>
               </article>
               <article class="experience-item">
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
                 <div>
-                  <p>Collaborated with cross-functional teams to troubleshoot software and database issues, implementing efficient solutions.</p>
-                </div>
-              </article>
-              <article class="experience-item">
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <p>Conducted system performance reviews to improve software efficiency and reduce downtime.</p>
+                  <p>Reviewed and refactored backend code to improve readability, maintainability, and alignment with engineering standards.</p>
                 </div>
               </article>
             </div>
           </div>
+
           <div class="details-container">
             <h2 class="experience-sub-title">Programmer Analyst Trainee Intern</h2>
-            <p>Cognizant | Feb 2022 – Jun 2022 | Bangalore, India</p>
+            <p>Cognizant | Feb 2022 – July 2022 | Bangalore, India</p>
             <div class="article-container">
               <article class="experience-item">
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
                 <div>
-                  <p>Developed automated test scripts using Selenium WebDriver and Java for Oracle PeopleSoft, improving testing efficiency and accuracy.</p>
+                  <p>Developed Java-based backend logic as part of enterprise application systems under guidance.</p>
                 </div>
               </article>
               <article class="experience-item">
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
                 <div>
-                  <p>Integrated MySQL with the testing framework, optimizing data management for automated tests and enhancing the overall workflow.</p>
+                  <p>Worked with relational databases (SQL) to support backend workflows and validate business logic.</p>
                 </div>
               </article>
               <article class="experience-item">
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
                 <div>
-                  <p>Collaborated with team members to enhance the automation testing process, reducing reliance on manual testing and improving overall test reliability.</p>
+                  <p>Built automated test scripts using Java and Selenium to support regression testing.</p>
+                </div>
+              </article>
+              <article class="experience-item">
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <p>Debugged backend and automation issues by analyzing logs and execution results.</p>
                 </div>
               </article>
             </div>
           </div>
+
         </div>
       </div>
-      <img
-        src="./assets/arrow.png"
-        alt="Arrow icon"
-        class="icon arrow"
-        onclick="location.href='./#projects'"
-      />
+      <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'" />
     </section>
+
+    <!-- UPDATED PROJECTS SECTION (Old projects removed, 4 new projects added) -->
     <section id="projects">
       <p class="section__text__p1">Browse My Recent</p>
       <h1 class="title">Projects</h1>
@@ -292,111 +323,88 @@
         <div class="about-containers">
           <div class="details-container color-container">
             <div class="article-container">
-              <img
-                src="./assets/project-1.png"
-                alt="Project 1"
-                class="project-img"
-              />
+              <img src="./assets/Aspire_AI.png" alt="Aspire-AI Project" class="project-img" />
             </div>
-            <h2 class="experience-sub-title project-title">Personal Portfolio Website </h2>
-            <p>Created a visually appealing portfolio using HTML, CSS, and JavaScript to professionally present projects, skills, and contact details, focusing on a clean layout, mobile responsiveness, and smooth animations. The site was deployed on Netlify with GitHub-based continuous deployment for seamless updates.</p>
-            <p><strong>Tech Stack:</strong> HTML, CSS, JavaScript, Netlify</p>
+            <h2 class="experience-sub-title project-title">Aspire-AI — AI-Powered Career Assistant</h2>
+            <p>
+              Aspire-AI is a full-stack AI-enabled web application that helps users with resume generation,
+              interview preparation, cover letter drafting, and career insights. It integrates large language
+              models into structured application workflows, focusing on practical AI use within real software systems.
+            </p>
+            <p><strong>Tech Stack:</strong> Next.js, React, TypeScript, Google Gemini API, Tailwind CSS</p>
             <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/Madhuchandrika01/portfolio_website'"
-              >
-                Github
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://madhuchandrika.netlify.app/'"
-              >
-                Live Demo
-              </button>
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Madhuchandrika01/AspireAi.git'">Github</button>
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://aspire-ai-three.vercel.app/'">Live Demo</button>
             </div>
           </div>
+
           <div class="details-container color-container">
             <div class="article-container">
-              <img
-                src="./assets/project-2.png"
-                alt="Project 2"
-                class="project-img"
-              />
+              <img src="./assets/Real_estate.png" alt="Real Estate Management Web Application Project" class="project-img" />
             </div>
-            <h2 class="experience-sub-title project-title">E-Commerce Product Store </h2>
-            <p>Built a complete MERN stack e-commerce platform with user authentication, product management, and Stripe payment integration, featuring a role-based admin dashboard and real-time session handling via JWT and Redis. The entire application was deployed on Railway for reliable performance.</p>
-            <p><strong>Tech Stack:</strong> React.js, Node.js, Express.js, MongoDB, Tailwind CSS, Zustand, JWT, Redis, Stripe, Railway</p>
+            <h2 class="experience-sub-title project-title">Real Estate Management Web Application</h2>
+            <p>
+              A backend-driven real estate management application that enables users to browse properties while allowing
+              agents and administrators to manage listings securely. The system implements role-based access control,
+              authentication, and data persistence using a layered Spring Boot architecture.
+            </p>
+            <p><strong>Tech Stack:</strong> Java, Spring Boot, Spring Security, Spring Data JPA, MySQL</p>
             <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/Madhuchandrika01/Ecommerce_Store'"
-              >
-                Github
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://projects-production-204f.up.railway.app/'"
-              >
-                Live Demo
-              </button>
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Madhuchandrika01/hot-properties.git'">Github</button>
             </div>
           </div>
+
           <div class="details-container color-container">
             <div class="article-container">
-              <img
-                src="./assets/project-3.png"
-                alt="Project 3"
-                class="project-img"
-              />
+              <img src="./assets/Ecommerce_store.png" alt="E-Commerce Store Project" class="project-img" />
             </div>
-            <h2 class="experience-sub-title project-title">Distributed File Retrieval Engine</h2>
-            <p>Designed a scalable client-server system using Java, gRPC, and Protocol Buffers to support concurrent document indexing and retrieval, implementing multithreading and a modular architecture for high-throughput search operations. The project was built with Maven for portability.</p>
-            <p><strong>Tech Stack:</strong> Java, gRPC, Protocol Buffers, Multithreading, Maven</p>
+            <h2 class="experience-sub-title project-title">E-Commerce Store – Full-Stack Web Application</h2>
+            <p>
+              URBAN is a full-stack e-commerce web application that supports product browsing, cart management,
+              user authentication, and secure checkout. The system exposes RESTful backend APIs and integrates payment
+              processing to simulate a real-world online shopping experience.
+            </p>
+            <p><strong>Tech Stack:</strong> React, Node.js, Express.js, MongoDB, Stripe API</p>
             <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/Madhuchandrika01/Distributed-File-Retrieval-Engine'"
-              >
-                Github
-              </button>
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Madhuchandrika01/Ecommerce_Store.git'">Github</button>
             </div>
           </div>
+
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/gRPC.png" alt="gRPC-Based Distributed File Retrieval Service Project" class="project-img" />
+            </div>
+            <h2 class="experience-sub-title project-title">gRPC-Based Distributed File Retrieval Service</h2>
+            <p>
+              A Java-based distributed system that uses gRPC for client–server communication, supporting remote file search
+              and retrieval operations. The service handles multiple concurrent client requests using multithreading and
+              demonstrates core distributed systems concepts.
+            </p>
+            <p><strong>Tech Stack:</strong> Java, gRPC, Multithreading, Client–Server Architecture</p>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Madhuchandrika01/Distributed-File-Retrieval-Engine.git'">Github</button>
+            </div>
+          </div>
+
         </div>
       </div>
-      <img
-        src="./assets/arrow.png"
-        alt="Arrow icon"
-        class="icon arrow"
-        onclick="location.href='./#contact'"
-      />
+      <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'" />
     </section>
+
     <section id="contact">
       <p class="section__text__p1">Get in Touch</p>
       <h1 class="title">Contact Me</h1>
       <div class="contact-info-upper-container">
         <div class="contact-info-container">
-          <img
-            src="./assets/email.png"
-            alt="Email icon"
-            class="icon contact-icon email-icon"
-          />
+          <img src="./assets/email.png" alt="Email icon" class="icon contact-icon email-icon" />
           <p><a href="mailto:madhuchandrika041@gmail.com">madhuchandrika041@gmail.com</a></p>
         </div>
         <div class="contact-info-container">
-          <img
-            src="./assets/linkedin.png"
-            alt="LinkedIn icon"
-            class="icon contact-icon"
-          />
+          <img src="./assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon" />
           <p><a href="https://linkedin.com/in/madhuchandrikab">LinkedIn</a></p>
         </div>
         <div class="contact-info-container">
-          <img
-            src="./assets/github.png"
-            alt="GitHub icon"
-            class="icon contact-icon"
-          />
+          <img src="./assets/github.png" alt="GitHub icon" class="icon contact-icon" />
           <p><a href="https://github.com/Madhuchandrika01">GitHub</a></p>
         </div>
       </div>
