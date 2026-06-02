@@ -452,13 +452,47 @@ body.dark-mode .icon {
 
 #experience {
   position: relative;
+  height: fit-content;
+  padding-bottom: 4rem;
+}
+
+#experience .about-containers {
+  align-items: stretch;
+  flex-wrap: wrap;
+}
+
+#experience .experience-card {
+  flex: 1 1 36rem;
+  text-align: left;
 }
 
 .experience-sub-title {
   color: var(--subtitle-color);
   font-weight: 600;
   font-size: 1.75rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.experience-meta {
+  color: var(--text-color-dark);
+  font-weight: 500;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.experience-summary {
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.core-technologies {
+  line-height: 1.6;
+  margin-top: 1rem;
+}
+
+.core-technologies strong {
+  color: var(--text-color-dark);
 }
 
 .experience-details-container {
