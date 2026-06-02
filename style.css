@@ -529,22 +529,37 @@ article .icon {
 
 #projects {
   position: relative;
+  height: fit-content;
+  padding-bottom: 4rem;
+}
+
+#projects .about-containers {
+  align-items: stretch;
+  flex-wrap: wrap;
 }
 
 .color-container {
   border-color: var(--container-border);
   background: var(--secondary-bg);
+  flex: 1 1 30rem;
+  text-align: left;
+}
+
+.color-container .btn-container {
+  margin-top: 1rem;
 }
 
 .project-img {
-  border-radius: 2rem;
-  width: 90%;
-  height: 90%;
+  border-radius: 1.25rem;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
 }
 
 .project-title {
-  margin: 1rem;
+  margin: 1rem 0;
   color: var(--text-color-dark);
+  text-align: center;
 }
 
 .project-btn {
