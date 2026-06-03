@@ -541,6 +541,16 @@ article .icon {
   gap: 1.25rem;
 }
 
+@media screen and (min-width: 1201px) {
+  #projects .color-container:nth-child(5) {
+    grid-column: 2;
+  }
+
+  #projects .color-container:nth-child(6) {
+    grid-column: 3;
+  }
+}
+
 .color-container {
   border-color: var(--container-border);
   background: var(--secondary-bg);
